@@ -309,14 +309,14 @@
             >
           </li>
         </ul>
-        <p class="footer__copyright">
-          <script>
-            let yearAndName =`© ${new Date().getFullYear()} Иван Дмитриевич`;
-            const placeForDate = document.querySelector(".footer__copyright");
-            placeForDate.textContent = yearAndName;
-          </script>
-        </p>
+        <p class="footer__copyright"></p>
       </section>
     </div>
+
+    <script>
+      let yearAndName = `© ${new Date().getFullYear()} Иван Дмитриевич`;
+      const placeForDate = document.querySelector(".footer__copyright");
+      placeForDate.textContent = yearAndName;
+    </script>
   </body>
 </html>
