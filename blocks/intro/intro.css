@@ -2,26 +2,29 @@
   display: flex;
   flex-direction: column;
   max-width: 690px;
-  margin: 0 442px 92px 148px;
+  margin-left: calc((100% - 984px) / 2);
   padding: 0;
+  margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    margin: 0 286px 92px 48px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    margin-left: calc((100% - 928px) / 2);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .intro {
-    margin: 0 24px 88px 24px;
     max-width: 720px;
+    margin: 88px 24px 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro {
-    max-width: 288px;
-    margin: 0 16px 64px 16px;
+    min-width: 288px;
+    margin: 64px 16px 64px;
   }
 }
